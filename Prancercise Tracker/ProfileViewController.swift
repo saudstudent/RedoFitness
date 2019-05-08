@@ -67,10 +67,9 @@ class ProfileViewController: UITableViewController {
   
   private func loadAndDisplayAgeSexAndBloodType() {
     do {
-      let userAgeSexAndBloodType = try ProfileDataStore.getAgeSexAndBloodType()
+      let userAgeSexAndBloodType = try ProfileDataStore.getAgeAndSex()
       userHealthProfile.age = userAgeSexAndBloodType.age
       userHealthProfile.biologicalSex = userAgeSexAndBloodType.biologicalSex
-      userHealthProfile.bloodType = userAgeSexAndBloodType.bloodType
       updateLabels()
     } catch let error {
       displayAlert(for: error)

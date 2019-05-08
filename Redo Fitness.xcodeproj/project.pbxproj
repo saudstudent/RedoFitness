@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		555EB8542110CFA100ED0AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC1BA50C1EAE5D2F00C99FE3 /* Prancercise Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prancercise Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1BA50C1EAE5D2F00C99FE3 /* Redo Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redo Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5F98D81EBEBFC600CA4444 /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutSession.swift; path = "Prancercise Tracker/WorkoutSession.swift"; sourceTree = SOURCE_ROOT; };
 		AC732B651EAEAB940062303D /* Prancercise Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Prancercise Tracker.entitlements"; path = "Prancercise Tracker/Prancercise Tracker.entitlements"; sourceTree = SOURCE_ROOT; };
 		AC891D701EDDBCEB00A0F84A /* WorkoutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDataStore.swift; path = "Prancercise Tracker/WorkoutDataStore.swift"; sourceTree = SOURCE_ROOT; };
@@ -104,7 +104,7 @@
 		AC1BA50D1EAE5D2F00C99FE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC1BA50C1EAE5D2F00C99FE3 /* Prancercise Tracker.app */,
+				AC1BA50C1EAE5D2F00C99FE3 /* Redo Fitness.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC1BA50B1EAE5D2F00C99FE3 /* Prancercise Tracker */ = {
+		AC1BA50B1EAE5D2F00C99FE3 /* Redo Fitness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC1BA51E1EAE5D2F00C99FE3 /* Build configuration list for PBXNativeTarget "Prancercise Tracker" */;
+			buildConfigurationList = AC1BA51E1EAE5D2F00C99FE3 /* Build configuration list for PBXNativeTarget "Redo Fitness" */;
 			buildPhases = (
 				AC1BA5081EAE5D2F00C99FE3 /* Sources */,
 				AC1BA5091EAE5D2F00C99FE3 /* Frameworks */,
@@ -170,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = "Prancercise Tracker";
+			name = "Redo Fitness";
 			productName = "Prancercise Tracker Starter";
-			productReference = AC1BA50C1EAE5D2F00C99FE3 /* Prancercise Tracker.app */;
+			productReference = AC1BA50C1EAE5D2F00C99FE3 /* Redo Fitness.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC1BA5071EAE5D2F00C99FE3 /* Build configuration list for PBXProject "Prancercise Tracker" */;
+			buildConfigurationList = AC1BA5071EAE5D2F00C99FE3 /* Build configuration list for PBXProject "Redo Fitness" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,7 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC1BA50B1EAE5D2F00C99FE3 /* Prancercise Tracker */,
+				AC1BA50B1EAE5D2F00C99FE3 /* Redo Fitness */,
 			);
 		};
 /* End PBXProject section */
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC1BA5071EAE5D2F00C99FE3 /* Build configuration list for PBXProject "Prancercise Tracker" */ = {
+		AC1BA5071EAE5D2F00C99FE3 /* Build configuration list for PBXProject "Redo Fitness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC1BA51C1EAE5D2F00C99FE3 /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC1BA51E1EAE5D2F00C99FE3 /* Build configuration list for PBXNativeTarget "Prancercise Tracker" */ = {
+		AC1BA51E1EAE5D2F00C99FE3 /* Build configuration list for PBXNativeTarget "Redo Fitness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC1BA51F1EAE5D2F00C99FE3 /* Debug */,
