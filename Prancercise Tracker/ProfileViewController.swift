@@ -51,7 +51,6 @@ class ProfileViewController: UITableViewController {
   }
   
   @IBOutlet private var ageLabel: UILabel!
-  @IBOutlet private var bloodTypeLabel: UILabel!
   @IBOutlet private var biologicalSexLabel: UILabel!
   @IBOutlet private var weightLabel: UILabel!
   @IBOutlet private var heightLabel: UILabel!
@@ -85,9 +84,9 @@ class ProfileViewController: UITableViewController {
       biologicalSexLabel.text = biologicalSex.stringRepresentation
     }
 
-    if let bloodType = userHealthProfile.bloodType {
+    /*if let bloodType = userHealthProfile.bloodType {
       bloodTypeLabel.text = bloodType.stringRepresentation
-    }
+    }*/
     
     if let weight = userHealthProfile.weightInKilograms {
       let weightFormatter = MassFormatter()
