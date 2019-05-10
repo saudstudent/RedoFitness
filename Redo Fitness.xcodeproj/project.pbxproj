@@ -149,8 +149,8 @@
 		AC8EABDE1EAE9B56002DD041 /* HealthKit Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AC8EABF71EAEA895002DD041 /* HKBiologicalSex+StringRepresentation.swift */,
 				AC8EABF81EAEA895002DD041 /* HKBloodType+StringRepresentation.swift */,
+				AC8EABF71EAEA895002DD041 /* HKBiologicalSex+StringRepresentation.swift */,
 			);
 			name = "HealthKit Extensions";
 			sourceTree = "<group>";
