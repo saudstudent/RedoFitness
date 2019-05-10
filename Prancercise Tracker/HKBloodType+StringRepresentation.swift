@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-import HealthKit
+/*import HealthKit
 
 extension HKBloodType {
   var stringRepresentation: String {
@@ -44,4 +44,4 @@ extension HKBloodType {
     case .oNegative: return "O-"
     }
   }
-}
+}*/
