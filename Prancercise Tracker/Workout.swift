@@ -33,6 +33,7 @@ import Foundation
 struct PrancerciseWorkoutInterval {
   var start: Date
   var end: Date
+   
   
   init(start: Date, end: Date) {
     self.start = start
@@ -51,7 +52,7 @@ struct PrancerciseWorkoutInterval {
   }
 }
 
-struct PrancerciseWorkout {
+struct Workout {
   var start: Date
   var end: Date
   var intervals: [PrancerciseWorkoutInterval]

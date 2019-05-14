@@ -67,11 +67,11 @@ class WorkoutSession {
     intervals.append(interval)
   }
   
-  var completeWorkout: PrancerciseWorkout? {
+  var completeWorkout: Workout? {
     guard state == .finished, intervals.count > 0 else {
       return nil
     }
     
-    return PrancerciseWorkout(with: intervals)
+    return Workout(with: intervals)
   }
 }

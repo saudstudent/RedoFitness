@@ -31,7 +31,7 @@
 import HealthKit
 
 class WorkoutDataStore {
-  class func save(prancerciseWorkout: PrancerciseWorkout,
+  class func save(prancerciseWorkout: Workout,
                   completion: @escaping ((Bool, Error?) -> Swift.Void)) {
     let healthStore = HKHealthStore()
     let workoutConfiguration = HKWorkoutConfiguration()
@@ -69,7 +69,7 @@ class WorkoutDataStore {
     }
   }
   
-  private class func samples(for workout: PrancerciseWorkout) -> [HKSample] {
+  private class func samples(for workout: Workout) -> [HKSample] {
     //1. Verify that the energy quantity type is still available to HealthKit.
     guard let energyQuantityType = HKSampleType.quantityType(
       forIdentifier: .activeEnergyBurned) else {
