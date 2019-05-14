@@ -35,7 +35,7 @@ class WorkoutDataStore {
                   completion: @escaping ((Bool, Error?) -> Swift.Void)) {
     let healthStore = HKHealthStore()
     let workoutConfiguration = HKWorkoutConfiguration()
-    workoutConfiguration.activityType = .other
+    workoutConfiguration.activityType = .functionalStrengthTraining
     let builder = HKWorkoutBuilder(healthStore: healthStore,
                                    configuration: workoutConfiguration,
                                    device: .local())
