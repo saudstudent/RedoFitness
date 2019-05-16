@@ -31,7 +31,7 @@
 import HealthKit
 
 class WorkoutDataStore {
-  class func save(prancerciseWorkout: Workout,
+  class func save(Workout: Workout,
                   completion: @escaping ((Bool, Error?) -> Swift.Void)) {
     let healthStore = HKHealthStore()
     let workoutConfiguration = HKWorkoutConfiguration()
@@ -40,14 +40,14 @@ class WorkoutDataStore {
                                    configuration: workoutConfiguration,
                                    device: .local())
     
-    builder.beginCollection(withStart: prancerciseWorkout.start) { (success, error) in
+    builder.beginCollection(withStart: Workout.start) { (success, error) in
       guard success else {
         completion(false, error)
         return
       }
     }
     
-    let samples = self.samples(for: prancerciseWorkout)
+    let samples = self.samples(for: Workout)
     
     builder.add(samples) { (success, error) in
       guard success else {
@@ -55,7 +55,7 @@ class WorkoutDataStore {
         return
       }
       
-      builder.endCollection(withEnd: prancerciseWorkout.end) { (success, error) in
+      builder.endCollection(withEnd: Workout.end) { (success, error) in
         guard success else {
           completion(false, error)
           return

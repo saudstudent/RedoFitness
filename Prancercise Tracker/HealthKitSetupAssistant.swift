@@ -47,7 +47,6 @@ class HealthKitSetupAssistant {
     //2. Prepare the data types that will interact with HealthKit
     guard
       let dateOfBirth = HKObjectType.characteristicType(forIdentifier: .dateOfBirth),
-      let bloodType = HKObjectType.characteristicType(forIdentifier: .bloodType),
       let biologicalSex = HKObjectType.characteristicType(forIdentifier: .biologicalSex),
       let bodyMassIndex = HKObjectType.quantityType(forIdentifier: .bodyMassIndex),
       let height = HKObjectType.quantityType(forIdentifier: .height),
@@ -65,7 +64,6 @@ class HealthKitSetupAssistant {
                                                     activeEnergy,
                                                     HKObjectType.workoutType()]
     let healthKitTypesToRead: Set<HKObjectType> = [dateOfBirth,
-                                                   bloodType,
                                                    biologicalSex,
                                                    bodyMassIndex,
                                                    height,

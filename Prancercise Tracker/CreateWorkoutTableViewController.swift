@@ -170,7 +170,7 @@ class CreateWorkoutTableViewController: UITableViewController {
       fatalError("Shouldn't be able to press the done button without a saved workout.")
     }
     
-    WorkoutDataStore.save(prancerciseWorkout: currentWorkout) { (success, error) in
+    WorkoutDataStore.save(Workout: currentWorkout) { (success, error) in
       if success {
         self.dismissAndRefreshWorkouts()
       } else {
