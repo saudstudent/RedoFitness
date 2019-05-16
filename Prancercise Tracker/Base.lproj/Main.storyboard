@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="pGg-6v-bdr" kind="relationship" relationship="rootViewController" id="RxB-wf-QIq"/>
+                        <segue destination="cBd-ER-PAW" kind="relationship" relationship="rootViewController" id="2OA-kz-Rxp"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eq9-QA-ai8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-148" y="64"/>
+            <point key="canvasLocation" x="-1775" y="63"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="VgW-fR-Quf">
@@ -112,6 +113,7 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Authorization" image="health_sources" id="bOn-aO-3Mf"/>
                     <navigationItem key="navigationItem" title="Redo Fitness" id="tQt-TN-PWz">
                         <barButtonItem key="backBarButtonItem" title=" " id="v8b-vV-piw"/>
                     </navigationItem>
@@ -119,6 +121,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cn-md-YlS" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="585" y="63"/>
+        </scene>
+        <!--Workout-->
+        <scene sceneID="Oba-SA-Heh">
+            <objects>
+                <viewController id="NYK-47-q06" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uUO-Gj-r5L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nD6-me-VkB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Workout" image="line_chart" id="OQ8-4r-s4t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="461-Vp-YLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="585" y="-618"/>
+        </scene>
+        <!--User info-->
+        <scene sceneID="I12-4h-75G">
+            <objects>
+                <viewController id="osd-Yj-Cdk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1lZ-qo-F1O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dCq-85-0wB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User info" image="about" id="7eB-7A-IsZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aG9-a3-3u1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="585" y="-1306"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="42k-3L-3lm">
+            <objects>
+                <tabBarController id="cBd-ER-PAW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Q41-n9-Hlo"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MSJ-JK-RFQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="osd-Yj-Cdk" kind="relationship" relationship="viewControllers" id="mGq-La-DKp"/>
+                        <segue destination="NYK-47-q06" kind="relationship" relationship="viewControllers" id="7KS-df-qSd"/>
+                        <segue destination="pGg-6v-bdr" kind="relationship" relationship="viewControllers" id="2u4-f7-oVo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4mF-OO-M4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-897" y="63"/>
         </scene>
         <!--Profile & BMI-->
         <scene sceneID="yW2-54-FD7">
@@ -466,4 +520,9 @@
             <point key="canvasLocation" x="2138" y="400"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="30" height="30"/>
+        <image name="health_sources" width="30" height="30"/>
+        <image name="line_chart" width="30" height="30"/>
+    </resources>
 </document>
