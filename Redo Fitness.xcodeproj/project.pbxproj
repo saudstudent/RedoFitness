@@ -187,7 +187,7 @@
 				TargetAttributes = {
 					AC1BA50B1EAE5D2F00C99FE3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3Q2S93V5A3;
+						DevelopmentTeam = VLDBFLNHCM;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -390,10 +390,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Prancercise Tracker/Prancercise Tracker.entitlements";
-				DEVELOPMENT_TEAM = 3Q2S93V5A3;
+				DEVELOPMENT_TEAM = VLDBFLNHCM;
 				INFOPLIST_FILE = "Prancercise Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kerpal.ankita;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baig.saud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -404,10 +404,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Prancercise Tracker/Prancercise Tracker.entitlements";
-				DEVELOPMENT_TEAM = 3Q2S93V5A3;
+				DEVELOPMENT_TEAM = VLDBFLNHCM;
 				INFOPLIST_FILE = "Prancercise Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kerpal.ankita;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baig.saud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
