@@ -132,7 +132,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nD6-me-VkB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Workout" image="line_chart" id="OQ8-4r-s4t"/>
+                    <tabBarItem key="tabBarItem" title="Workout" image="trophy" id="OQ8-4r-s4t"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="461-Vp-YLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -523,6 +523,6 @@
     <resources>
         <image name="about" width="30" height="30"/>
         <image name="health_sources" width="30" height="30"/>
-        <image name="line_chart" width="30" height="30"/>
+        <image name="trophy" width="30" height="30"/>
     </resources>
 </document>
