@@ -93,7 +93,7 @@ extension WorkoutsTableViewController {
     //4. Show the Calorie burn in the lower label
     if let caloriesBurned =
       workout.totalEnergyBurned?.doubleValue(for: .kilocalorie()) {
-      let formattedCalories = String(format: "CaloriesBurned: %.2f",
+      let formattedCalories = String(format: "Calories Burned: %.2f",
                                      caloriesBurned)
       
       cell.detailTextLabel?.text = formattedCalories

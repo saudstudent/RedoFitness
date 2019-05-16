@@ -33,7 +33,7 @@ import UIKit
 class CreateWorkoutTableViewController: UITableViewController {
   @IBOutlet private var startTimeLabel: UILabel!
   @IBOutlet private var durationLabel: UILabel!
-  
+   
   private var timer: Timer!
   
   var session = WorkoutSession()
