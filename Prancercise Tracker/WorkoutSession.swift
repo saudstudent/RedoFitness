@@ -40,7 +40,7 @@ class WorkoutSession {
   private (set) var startDate: Date!
   private (set) var endDate: Date!
   
-  var intervals: [PrancerciseWorkoutInterval] = []
+  var intervals: [WorkoutInterval] = []
   var state: WorkoutSessionState = .notStarted
   
   func start() {
@@ -62,16 +62,16 @@ class WorkoutSession {
   }
   
   private func addNewInterval() {
-    let interval = PrancerciseWorkoutInterval(start: startDate,
+    let interval = WorkoutInterval(start: startDate,
                                               end: endDate)
     intervals.append(interval)
   }
   
-  var completeWorkout: PrancerciseWorkout? {
+  var completeWorkout: Workout? {
     guard state == .finished, intervals.count > 0 else {
       return nil
     }
     
-    return PrancerciseWorkout(with: intervals)
+    return Workout(with: intervals)
   }
 }
