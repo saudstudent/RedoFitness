@@ -35,6 +35,7 @@ class HealthKitSetupAssistant {
     case notAvailableOnDevice
     case dataTypeNotAvailable
   }
+   
   
   class func authorizeHealthKit(completion: @escaping (Bool, Error?) -> Void) {
     //1. Check to see if HealthKit Is Available on this device
@@ -52,6 +53,8 @@ class HealthKitSetupAssistant {
       let height = HKObjectType.quantityType(forIdentifier: .height),
       let bodyMass = HKObjectType.quantityType(forIdentifier: .bodyMass),
       let activeEnergy = HKObjectType.quantityType(forIdentifier: .activeEnergyBurned)
+      
+      
       else {
         completion(false, HealthkitSetupError.dataTypeNotAvailable)
         return
@@ -68,6 +71,7 @@ class HealthKitSetupAssistant {
                                                    height,
                                                    bodyMass,
                                                    HKObjectType.workoutType()]
+    
     
     //4. Request Authorization
     HKHealthStore().requestAuthorization(toShare: healthKitTypesToWrite,
