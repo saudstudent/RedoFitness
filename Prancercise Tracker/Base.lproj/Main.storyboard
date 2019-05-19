@@ -308,24 +308,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rw-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Xd-T7-rvQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rw-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Xd-T7-rvQ">
                                 <rect key="frame" x="-56" y="84" width="486" height="270"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fitness Reinvented" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTt-gL-Kb4">
-                                <rect key="frame" x="115" y="323" width="145" height="21"/>
+                                <rect key="frame" x="115.5" y="323.5" width="144.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Mm4-6f-yxE" firstAttribute="bottom" secondItem="4Xd-T7-rvQ" secondAttribute="bottom" constant="264" id="1RC-4t-Cjz"/>
                             <constraint firstItem="Mm4-6f-yxE" firstAttribute="bottom" secondItem="4Xd-T7-rvQ" secondAttribute="bottom" constant="264" id="6X9-iF-otw"/>
                             <constraint firstItem="4Xd-T7-rvQ" firstAttribute="leading" secondItem="X6s-u8-NAF" secondAttribute="leading" constant="-56" id="8E2-MM-cG0"/>
                             <constraint firstAttribute="trailing" secondItem="4Xd-T7-rvQ" secondAttribute="trailing" constant="-55" id="9kY-0j-hRb"/>
+                            <constraint firstItem="4Xd-T7-rvQ" firstAttribute="top" secondItem="Mm4-6f-yxE" secondAttribute="top" constant="20" id="ATV-BK-K92"/>
                             <constraint firstItem="xTt-gL-Kb4" firstAttribute="centerX" secondItem="X6s-u8-NAF" secondAttribute="centerX" id="GZy-We-DHl"/>
+                            <constraint firstAttribute="trailing" secondItem="4Xd-T7-rvQ" secondAttribute="trailing" constant="-55" id="TtF-BB-a78"/>
                             <constraint firstItem="xTt-gL-Kb4" firstAttribute="centerY" secondItem="X6s-u8-NAF" secondAttribute="centerY" id="kqy-LJ-fUE"/>
                             <constraint firstItem="4Xd-T7-rvQ" firstAttribute="top" secondItem="Mm4-6f-yxE" secondAttribute="top" constant="20" id="roI-NT-ESs"/>
+                            <constraint firstItem="4Xd-T7-rvQ" firstAttribute="leading" secondItem="X6s-u8-NAF" secondAttribute="leading" constant="-56" id="tC8-h0-gVP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mm4-6f-yxE"/>
                     </view>
@@ -507,6 +510,6 @@
         <image name="about" width="30" height="30"/>
         <image name="health_sources" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
-        <image name="rw-logo" width="640" height="360"/>
+        <image name="rw-logo" width="181.41732788085938" height="102"/>
     </resources>
 </document>
