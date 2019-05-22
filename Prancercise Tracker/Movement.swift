@@ -30,6 +30,6 @@ import Foundation
 struct Movement{
     static let ChestAndTri: [String] = ["Bench Press","Dumbell Flies","Chest Dips","Incline Bench Press","Push-Ups","Tricep Pushdown","Bench Dips","Skullcrushers"]
     static let Legs: [String] = ["Squat", "Leg Press", "Lunges","Leg extensions","Deadlift","Lying Leg Curls","Standing Calf Raises"]
-    static let ShouldersAndAbs = ["Military Press", "abs"]
-    static let BackAndBis = ["back", "bis"]
+    static let ShouldersAndAbs = ["Military Press", "Side Lateral Raise","Front Raise","Standing Upright Row","Barbell Shrug","Sit-ups","Hanging Knee Raises","Planks","Russian Twist"]
+    static let BackAndBis = ["Pull-Down","Underhand Row","Pull-ups","Cable Row", "Rack Pull", "Dumbell Curl", "Standing Hammer Curl","Machine Curl","Rope Hammer Curl"]
 }

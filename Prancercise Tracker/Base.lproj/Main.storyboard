@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="766" y="63"/>
         </scene>
-        <!--Test-->
+        <!--Lifting-->
         <scene sceneID="zno-zg-8Rj">
             <objects>
                 <tableViewController id="gft-0G-8CG" customClass="WorkoutGeneratorTableViewController" customModule="Redo_Fitness" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,7 +132,7 @@
                             <outlet property="delegate" destination="gft-0G-8CG" id="W2C-Is-zuA"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Test" image="trophy" id="zUI-9M-RSq"/>
+                    <tabBarItem key="tabBarItem" title="Lifting" image="trophy" id="zUI-9M-RSq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vyb-62-hrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,6 +360,7 @@
                                 <state key="normal" title="Chest &amp; Tris"/>
                                 <connections>
                                     <action selector="ChestAndTrisPressed:" destination="50A-DB-8Ze" eventType="touchUpInside" id="xY5-ZO-y9Z"/>
+                                    <segue destination="gft-0G-8CG" kind="show" id="OcH-N6-nEN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC5-jS-wFG">
@@ -367,6 +368,7 @@
                                 <state key="normal" title="Legs"/>
                                 <connections>
                                     <action selector="LegsPressed:" destination="50A-DB-8Ze" eventType="touchUpInside" id="NXQ-Kc-qNc"/>
+                                    <segue destination="gft-0G-8CG" kind="show" id="yC4-0j-0Nb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IK1-mI-yyR">
@@ -374,6 +376,7 @@
                                 <state key="normal" title="Back &amp; Biceps"/>
                                 <connections>
                                     <action selector="BackAndBisPressed:" destination="50A-DB-8Ze" eventType="touchUpInside" id="tA7-Ot-NGF"/>
+                                    <segue destination="gft-0G-8CG" kind="show" id="bet-FK-skE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wR-Cj-uv9">
@@ -381,6 +384,7 @@
                                 <state key="normal" title="Shoulders &amp; Abs"/>
                                 <connections>
                                     <action selector="ShouldersAndAbsPressed:" destination="50A-DB-8Ze" eventType="touchUpInside" id="Zci-Ob-Dfh"/>
+                                    <segue destination="gft-0G-8CG" kind="show" id="L2Q-7c-qaR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -580,7 +584,10 @@
         <image name="about" width="30" height="30"/>
         <image name="health_sources" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
-        <image name="rw-logo" width="181.41732788085938" height="102"/>
+        <image name="rw-logo" width="640" height="360"/>
         <image name="trophy" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="OcH-N6-nEN"/>
+    </inferredMetricsTieBreakers>
 </document>
