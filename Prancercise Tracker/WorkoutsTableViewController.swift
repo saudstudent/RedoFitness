@@ -38,7 +38,7 @@ class WorkoutsTableViewController: UITableViewController {
   }
   
   private var workouts: [HKWorkout]?
-  private let prancerciseWorkoutCellID = "PrancerciseWorkoutCell"
+  private let prancerciseWorkoutCellID = "ExerciseOne"
   
   lazy var dateFormatter: DateFormatter = {
     let formatter = DateFormatter()

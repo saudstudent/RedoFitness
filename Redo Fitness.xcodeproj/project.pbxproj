@@ -22,6 +22,9 @@
 		AC8EABFD1EAEA8B2002DD041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8EABFB1EAEA8B2002DD041 /* Main.storyboard */; };
 		AC8EAC081EAEA8E5002DD041 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EAC071EAEA8E5002DD041 /* Workout.swift */; };
 		ACF4F91E1EB0EF310031154C /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */; };
+		E1CF13A72294CC97004A3BAA /* WorkoutGeneratorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF13A62294CC97004A3BAA /* WorkoutGeneratorTableViewController.swift */; };
+		E1CF13A92294D069004A3BAA /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF13A82294D069004A3BAA /* Movement.swift */; };
+		E1CF13AB2294D7EC004A3BAA /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF13AA2294D7EC004A3BAA /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		AC8EAC011EAEA8C8002DD041 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Prancercise Tracker/Info.plist"; sourceTree = SOURCE_ROOT; };
 		AC8EAC071EAEA8E5002DD041 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workout.swift; path = "Prancercise Tracker/Workout.swift"; sourceTree = SOURCE_ROOT; };
 		ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserHealthProfile.swift; path = "Prancercise Tracker/UserHealthProfile.swift"; sourceTree = SOURCE_ROOT; };
+		E1CF13A62294CC97004A3BAA /* WorkoutGeneratorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGeneratorTableViewController.swift; sourceTree = "<group>"; };
+		E1CF13A82294D069004A3BAA /* Movement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
+		E1CF13AA2294D7EC004A3BAA /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,8 @@
 		AC1BA52F1EAE5E5400C99FE3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E1CF13AA2294D7EC004A3BAA /* SelectionViewController.swift */,
+				E1CF13A62294CC97004A3BAA /* WorkoutGeneratorTableViewController.swift */,
 				AC8EABE91EAEA855002DD041 /* CreateWorkoutTableViewController.swift */,
 				AC8EABEA1EAEA855002DD041 /* MasterViewController.swift */,
 				AC8EABEB1EAEA855002DD041 /* ProfileViewController.swift */,
@@ -140,6 +148,7 @@
 				ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */,
 				AC8EAC071EAEA8E5002DD041 /* Workout.swift */,
 				AC5F98D81EBEBFC600CA4444 /* WorkoutSession.swift */,
+				E1CF13A82294D069004A3BAA /* Movement.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -241,7 +250,10 @@
 				AC891D711EDDBCEB00A0F84A /* WorkoutDataStore.swift in Sources */,
 				AC8EABEF1EAEA855002DD041 /* ProfileViewController.swift in Sources */,
 				AC8EAC081EAEA8E5002DD041 /* Workout.swift in Sources */,
+				E1CF13AB2294D7EC004A3BAA /* SelectionViewController.swift in Sources */,
+				E1CF13A92294D069004A3BAA /* Movement.swift in Sources */,
 				AC8EABF91EAEA895002DD041 /* HKBiologicalSex+StringRepresentation.swift in Sources */,
+				E1CF13A72294CC97004A3BAA /* WorkoutGeneratorTableViewController.swift in Sources */,
 				AC5F98D91EBEBFC600CA4444 /* WorkoutSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
